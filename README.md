@@ -16,8 +16,11 @@
 <!-- Why you looking at the raw readme, this is horrid to read. -->
 <!-- If it's not obvious, I just took a majority of the readme from OSCLeash  lol. -->
 
+<h1 align="Center">
+  ⚠️ Currently only usable in VRChat's Open Beta! ⚠️<br>
+</h1>
+
 Automatically keeps track of your last avatar height and re-applies it upon avatar changes. <br>
-(If the world allows it)
 
 # Download & Setup
 Download the latest version of Eye Height Persistence [from releases](https://github.com/YourUsername/EyeHeightPersistence/releases). <br>
