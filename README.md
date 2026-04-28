@@ -24,7 +24,7 @@ Keeps track of your avatar's height and reapplies it upon avatar changes. <br>
 Optionally, it can scale proportionally to adjust for heels n such. <br>
 
 # Download & Setup
-Download the latest version of Eye Height Persistence [from releases](https://github.com/YourUsername/EyeHeightPersistence/releases). <br>
+Download the latest version of Eye Height Persistence [from releases](https://github.com/ZenithVal/EyeHeightPersistence/releases). <br>
 
 
 # Config

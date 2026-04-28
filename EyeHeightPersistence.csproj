@@ -5,7 +5,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>Resources\EyeHeightPersistence.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\EyeHeightPersistence.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Rug.Osc" Version="1.2.5" />
