@@ -1,0 +1,9 @@
+﻿{
+    "IP": "127.0.0.1",
+    "ListeningPort": 9001,
+    "SendingPort": 9000,
+    "OSCQuery": true,
+    "ChangeDelayMS": 200,
+    "RelativeMode": true,
+    "HeightTolerance": 0.2
+}
