@@ -39,7 +39,7 @@ namespace EyeHeightPersistence
 		static async Task Main(string[] args)
 		{
 			Console.WriteLine("Eye Height Persistence Starting");
-			Console.WriteLine("Version: {VERSION_PLACEHOLDER})");
+			Console.WriteLine("Version: {VERSION_PLACEHOLDER}\n");
 
 			LoadConfig();
 
