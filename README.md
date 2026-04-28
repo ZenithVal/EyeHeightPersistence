@@ -12,6 +12,9 @@
     </div>
 </div>
 
+<!-- Why you looking at the raw readme, this is horrid to read. -->
+<!-- If it's not obvious, I just took the readme from OSCLeash for this lol. -->
+
 Automatically keeps track of your last avatar height and re-applies it upon avatar changes. <br>
 (If the world allows it)
 
@@ -60,10 +63,9 @@ You can open the json file in your favorite text editor and make edits.
 
 
 # Running from Source
-For those that want to modify the source code or run it locally without the provided executable:
 - Clone the repo
-- Open `EyeHeightPersistence.sln` in Visual Studio 2022+
-- Restore NuGet packages (`Rug.Osc`, `vrc-oscquery-lib`, `System.Text.Json`)
+- Open `EyeHeightPersistence.sln` in your IDE.
+- Restore NuGet packages
 - Build and Run
 
 ---
