@@ -20,13 +20,11 @@
   ⚠️ Currently only usable in VRChat's Open Beta! ⚠️<br>
 </h1>
 
-Automatically keeps track of your last avatar height and re-applies it upon avatar changes. <br>
+Keeps track of your avatar's height and reapplies it upon avatar changes. <br>
+Optionally, it can scale proportionally to adjust for heels n such. <br>
 
 # Download & Setup
 Download the latest version of Eye Height Persistence [from releases](https://github.com/YourUsername/EyeHeightPersistence/releases). <br>
-
-
-<br>
 
 
 # Config
@@ -46,9 +44,6 @@ You can open the json file in your favorite text editor and make edits.
 | HeightTolerance       | Max difference in base heights before resorting to 1:1 eye height | 0.2         |
 
 
-<br>
-
-
 ## Default config.json
 ```json
 {
@@ -61,9 +56,6 @@ You can open the json file in your favorite text editor and make edits.
     "HeightTolerance": 0.2
 }
 ```
-
-
-<br>
 
 
 # Running from Source
