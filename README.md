@@ -5,15 +5,16 @@
     <div align="Center">
       <p align="Center">
         <a><img alt="Latest Version" src="https://img.shields.io/github/v/tag/ZenithVal/EyeHeightPersistence?color=informational&label=Version&sort=semver"></a>
-        <a><img alt="Latest Version" src="https://img.shields.io/github/v/tag/ZenithVal/EyeHeightPersistence?color=informational&label=Version&sort=semver"></a>
-        <a><img alt="Downloads" src="https://img.shields.io/github/downloads/ZenithVal/EyeHeightPersistence/total.svg?label=Downloads"></a>
+        <a href="https://github.com/ZenithVal/EyeHeightPersistence/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/ZenithVal/EyeHeightPersistence?label=Liscense"></a>
+        <!-- <a><img alt="Downloads" src="https://img.shields.io/github/downloads/ZenithVal/EyeHeightPersistence/total.svg?label=Downloads"></a> --> 
+        <!-- Enable this later zeni -->
         <br>
       </p>
     </div>
 </div>
 
 <!-- Why you looking at the raw readme, this is horrid to read. -->
-<!-- If it's not obvious, I just took the readme from OSCLeash for this lol. -->
+<!-- If it's not obvious, I just took a majority of the readme from OSCLeash  lol. -->
 
 Automatically keeps track of your last avatar height and re-applies it upon avatar changes. <br>
 (If the world allows it)
