@@ -17,6 +17,7 @@ namespace EyeHeightPersistence
 		public int ChangeDelayMS { get; set; } = 200;
 		public bool RelativeMode { get; set; } = true;
 		public float HeightTolerance { get; set; } = 0.2f;
+		public bool ToleranceFailBehavior { get; set; } = true; 
 	}
 
 	class Program
@@ -87,7 +88,7 @@ namespace EyeHeightPersistence
 			Task listenTask = new Task(ListenLoop);
 			listenTask.Start();
 
-			Console.WriteLine("\n\n");
+			Console.WriteLine("\n");
 
 			await Task.Delay(-1);
 		}
@@ -107,8 +108,16 @@ namespace EyeHeightPersistence
 		{
 			if (File.Exists("config.json"))
 			{
-				string json = File.ReadAllText("config.json");
-				config = JsonSerializer.Deserialize<Config>(json);
+				try
+				{
+					config = JsonSerializer.Deserialize<Config>(File.ReadAllText("config.json"));
+					Console.WriteLine("Config loaded from config.json");
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine($"Error loading config.json: {ex.Message}");
+					config = new Config();
+				}
 			}
 			else
 			{
@@ -203,9 +212,11 @@ namespace EyeHeightPersistence
 					}
 					else
 					{
-						ApplyEyeHeight(lastEyeHeight);
+						if (config.ToleranceFailBehavior) ApplyEyeHeight(lastEyeHeight);
+						else Console.WriteLine("Base height difference exceeded tolerance.");
 					}
 				}
+				Console.WriteLine();
 			}
 
 			lastAvatarId = newId;

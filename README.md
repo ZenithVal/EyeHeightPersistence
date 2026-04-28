@@ -42,6 +42,7 @@ You can open the json file in your favorite text editor and make edits.
 | ChangeDelayMS         | Milliseconds to wait after an avatar change before applying       | 200         |
 | RelativeMode          | Set eye height relative to base scale instead of 1:1              | true        |
 | HeightTolerance       | Max difference in base heights before resorting to 1:1 eye height | 0.2         |
+| ToleranceFailBehavior | Behavior when over tolerance. True = 1:1, False = Do nothing      | true        |
 
 
 ## Default config.json
@@ -53,7 +54,8 @@ You can open the json file in your favorite text editor and make edits.
     "OSCQuery": true,
     "ChangeDelayMS": 200,
     "RelativeMode": true,
-    "HeightTolerance": 0.2
+    "HeightTolerance": 0.2,
+    "ToleranceFailBehavior": true
 }
 ```
 
