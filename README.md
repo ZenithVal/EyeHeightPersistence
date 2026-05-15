@@ -16,10 +16,6 @@
 <!-- Why you looking at the raw readme, this is horrid to read. -->
 <!-- If it's not obvious, I just took a majority of the readme from OSCLeash  lol. -->
 
-<h1 align="Center">
-  ⚠️ Currently only usable in VRChat's Open Beta! ⚠️<br>
-</h1>
-
 Keeps track of your avatar's height and reapplies it upon avatar changes. <br>
 Optionally, it can scale proportionally to adjust for heels n such. <br>
 
